@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html lang = "fr">
+
+<head>
+<link rel="stylesheet" href="assets/style/style.css">
+
+<title> Duck Hunt</title>
+</head>
+
+<body>
+    <audio
+    controls
+    autoplay
+    preload="auto"
+        src="assets/images/music.mp3">
+    </audio>
+    <p ></p>
+    <div class = "firstDiv">
+        <div class = "divForButton" id = "divForButton">
+            <p id ="scoreBase">a</p>
+            <form>
+                <input type="text" placeholder="Ecrivez votre nom" id="nom" value="" />
+            </form>
+            <button class = "startButton" id = "startButton"> Commencer </button>
+        </div>
+        <div class = "secondDiv" id = "secondDiv">
+            <img src="assets/images/sky.png" alt="BUG" class ="imgone">
+            <img src="assets/images/grass.png" alt="BUG" class = "imgtwo">
+            <img src="assets/images/bullet.png" alt="bullet.png" class = "bullet1" id = "bullet">
+            <img src="assets/images/bullet.png" alt="bullet.png" class = "bullet2" id = "bullet">
+            <img src="assets/images/bullet.png" alt="bullet.png" class = "bullet3" id = "bullet">
+            <img src="assets/images/bullet.png" alt="bullet.png" class = "bullet4" id = "bullet">
+            <img src="assets/images/bullet.png" alt="bullet.png" class = "bullet5" id = "bullet">
+            <img src="assets/images/bullet.png" alt="bullet.png" class = "bullet6" id = "bullet">
+            <img src="assets/images/bullet.png" alt="bullet.png" class = "bullet7" id = "bullet">
+            <img src="assets/images/bullet.png" alt="bullet.png" class = "bullet8" id = "bullet">
+            <img src="assets/images/bullet.png" alt="bullet.png" class = "bullet9" id = "bullet">
+            <img src="assets/images/bullet.png" alt="bullet.png" class = "bullet10" id = "bullet">
+            <p class ="score">Score : <span id ="score">0</span></p>
+            <p class ="mult">Multiplicateur : <span id ="mult">1x</span></p>
+        </div>
+        <div class ="gameOver" id = "gameOver">
+            <p class="lost"> 
+            Perdu 
+            <span id = "nameofplayer"></span>
+            </p>
+            <a href="file:///Users/enzo/Desktop/HEXAGONE/Histoire%20de%20l'informatique/A/index.html">Recommencer</a>
+        </div>
+    </div>
+
+<script src = "assets/script/interaction.js" type = "text/javascript"> </script>
+</body>
+
+</html>
